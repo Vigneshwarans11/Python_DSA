@@ -1,3 +1,4 @@
+#frequency of items or count the items
 items=["pen", "book", "pen", "pencil", "book", "pen"]
 count={}
 for products in items:
@@ -6,3 +7,4 @@ for products in items:
     else:
         count[products]=1
 print(count)
+
