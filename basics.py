@@ -33,15 +33,37 @@
 # print(number1[-1])
 
 # using while loop
-numbers = [34, 67, 23, 89, 12, 55, 91, 44]
-largest_num=numbers[0]
-index=1
-while index<len(numbers):
-    if numbers[index]>largest_num:
-        largest_num=numbers[index]
-    index=index+1
-print(largest_num)
-    
+# numbers = [34, 67, 23, 89, 12, 55, 91, 44]
+# largest_num=numbers[0]
+# index=1
+# while index<len(numbers):
+#     if numbers[index]>largest_num:
+#         largest_num=numbers[index]
+#     index=index+1
+# print(largest_num)
 
+#for loop
+# numbers = [34, 67, 23, 89, 12, 55, 91, 44]
+# largest_num=numbers[0]
+# for num in numbers:
+#     if num>largest_num:
+#         largest_num=num
+# print(largest_num)
+
+# def largest_num(numbers):
+#     largest=numbers[0]
+#     index=1
+#     while index<len(numbers):
+#         if numbers[index]>largest:
+#             largest=numbers[index]
+#         index=index+1
+#     return largest
+
+# numbers=[34, 67, 23, 89, 12, 55]
+# print(largest_num(numbers))
+
+
+
+        
 
 
