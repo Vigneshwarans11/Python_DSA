@@ -63,6 +63,46 @@
 # print(largest_num(numbers))
 
 
+# Find Largest, Smallest & Position
+# def find_large(arr):
+#     largest = arr[0]
+#     large_pos=0
+#     index=1
+#     while index < len(arr):
+#         if arr[index]>largest:
+#             largest = arr[index]
+#             large_pos=index
+#         index=index+1
+#     return largest,large_pos
+
+# def find_small(arr):
+#     smallest=arr[0]
+#     small_pos=0
+#     index=1
+#     while index < len(arr):
+#         if arr[index]<smallest:
+#             smallest = arr[index]
+#             small_pos=index
+#         index=index+1
+#     return smallest,small_pos
+
+# def display_result(arr):
+#     largest, large_pos = find_large(arr)
+#     smallest, small_pos = find_small(arr)
+#     print("Array    :", arr)
+#     print(f"Largest  : {largest}   at index {large_pos}")
+#     print(f"Smallest : {smallest}   at index {small_pos}")
+
+# numbers = [34, 67, 23, 89, 12, 55, 91, 44]
+# display_result(numbers)
+
+
+
+
+
+
+
+
 
 
 
