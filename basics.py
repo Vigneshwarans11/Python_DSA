@@ -96,7 +96,21 @@
 # numbers = [34, 67, 23, 89, 12, 55, 91, 44]
 # display_result(numbers)
 
-
+# PRIME NUMBER
+# num = int(input("Enter a number: "))
+# divisor = 2
+# is_prime = True
+# while divisor < num:
+#     if num % divisor == 0:      # If divisible by any number
+#         is_prime = False         # It's NOT prime
+#         break                    # No need to check further
+#     divisor += 1
+# if num < 2:
+#     print(f"{num} is NOT a Prime number")
+# elif is_prime:
+#     print(f"{num} IS a Prime number ✅")
+# else:
+#     print(f"{num} is NOT a Prime number ❌")
 
 
 
